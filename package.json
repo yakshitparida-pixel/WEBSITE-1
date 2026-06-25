@@ -1,0 +1,22 @@
+{
+  "name": "confluence-ai",
+  "version": "1.0.0",
+  "description": "A free-key multi-engine AI chat app that synthesizes one answer from every configured provider.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "gemini",
+    "groq",
+    "openrouter",
+    "huggingface",
+    "cohere",
+    "cerebras"
+  ],
+  "license": "MIT"
+}
